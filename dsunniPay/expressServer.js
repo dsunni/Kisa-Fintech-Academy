@@ -1,4 +1,4 @@
-const express = require('express')
+﻿const express = require('express')
 const request = require("request");
 const app = express()
 var auth = require('./lib/auth');
@@ -7,8 +7,8 @@ var jwt = require('jsonwebtoken');
 var mysql = require("mysql");
 var connection = mysql.createConnection({
   host: "localhost",
-  user: "root",
-  password: "root",
+  user: "",
+  password: "",
   database: "fintech1019",
 });
 connection.connect();
